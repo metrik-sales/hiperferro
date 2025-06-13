@@ -1,0 +1,187 @@
+{
+ "blacklist_produtos_hiperferro": {
+   "descricao": "Lista de produtos e categorias que a Hiperferro NÃO comercializa",
+   "data_atualizacao": "2025-01-13",
+   "versao": "1.0",
+   "categorias_nao_comercializadas": {
+     "material_eletrico": {
+       "categoria": "Material Elétrico",
+       "produtos": [
+         "fios elétricos",
+         "cabos elétricos",
+         "disjuntores",
+         "tomadas",
+         "interruptores",
+         "lâmpadas",
+         "reatores",
+         "transformadores",
+         "painéis elétricos",
+         "condutores",
+         "eletrodutos"
+       ],
+       "palavras_chave": ["elétrico", "eletricidade", "energia", "voltagem", "amperagem"]
+     },
+     "material_hidraulico": {
+       "categoria": "Material Hidráulico",
+       "produtos": [
+         "torneiras",
+         "tubos de PVC para água",
+         "conexões hidráulicas",
+         "caixas d'água",
+         "válvulas hidráulicas",
+         "registros",
+         "chuveiros",
+         "pias",
+         "vasos sanitários",
+         "tubulações para água",
+         "sifões"
+       ],
+       "palavras_chave": ["hidráulico", "água", "encanamento", "banheiro", "cozinha"]
+     },
+     "acabamentos": {
+       "categoria": "Acabamentos",
+       "produtos": [
+         "pisos",
+         "porcelanatos",
+         "tintas",
+         "argamassas",
+         "rejuntes",
+         "louças sanitárias",
+         "azulejos",
+         "cerâmicas",
+         "massa corrida",
+         "gesso",
+         "vernizes",
+         "esmaltes"
+       ],
+       "palavras_chave": ["acabamento", "pintura", "revestimento", "decoração", "estética"]
+     },
+     "moveis_eletrodomesticos": {
+       "categoria": "Móveis e Eletrodomésticos",
+       "produtos": [
+         "armários",
+         "geladeiras",
+         "fogões",
+         "camas",
+         "sofás",
+         "mesas",
+         "cadeiras",
+         "guarda-roupas",
+         "micro-ondas",
+         "máquinas de lavar",
+         "televisores"
+       ],
+       "palavras_chave": ["móvel", "móveis", "eletrodoméstico", "casa", "decoração"]
+     },
+     "ferramentas_eletricas_combustao": {
+       "categoria": "Ferramentas Elétricas e a Combustão",
+       "produtos": [
+         "furadeiras",
+         "parafusadeiras",
+         "geradores",
+         "lixadeiras",
+         "motosserras",
+         "soldadores elétricos",
+         "esmerilhadeiras",
+         "serras elétricas",
+         "compressores",
+         "martelos elétricos"
+       ],
+       "palavras_chave": ["ferramenta elétrica", "gerador", "motor", "elétrica", "combustão"]
+     },
+     "equipamentos_seguranca": {
+       "categoria": "Equipamentos de Segurança (EPIs)",
+       "produtos": [
+         "capacetes",
+         "luvas de segurança",
+         "botas de segurança",
+         "cintos de segurança",
+         "óculos de proteção",
+         "máscaras",
+         "protetores auriculares",
+         "coletes",
+         "arnês",
+         "equipamentos de proteção individual"
+       ],
+       "palavras_chave": ["EPI", "segurança", "proteção", "capacete", "luva"]
+     },
+     "produtos_limpeza_domestico": {
+       "categoria": "Produtos de Limpeza e Uso Doméstico",
+       "produtos": [
+         "vassouras",
+         "detergentes",
+         "panos de limpeza",
+         "baldes",
+         "rodos",
+         "produtos de limpeza",
+         "sabões",
+         "desinfetantes",
+         "esponjas",
+         "alvejantes"
+       ],
+       "palavras_chave": ["limpeza", "doméstico", "casa", "higiene", "detergente"]
+     },
+     "produtos_automotivos": {
+       "categoria": "Produtos Automotivos",
+       "produtos": [
+         "óleo de motor",
+         "pneus",
+         "baterias automotivas",
+         "peças de carro",
+         "acessórios automotivos",
+         "filtros automotivos",
+         "velas de ignição",
+         "pastilhas de freio",
+         "amortecedores",
+         "escapamentos"
+       ],
+       "palavras_chave": ["automotivo", "carro", "veículo", "motor", "pneu"]
+     },
+     "servicos_instalacao": {
+       "categoria": "Serviços ou Equipamentos de Instalação",
+       "produtos": [
+         "mão de obra técnica",
+         "montagem de estruturas",
+         "soldadores profissionais",
+         "guindastes",
+         "serviços de instalação",
+         "montagem",
+         "soldagem profissional",
+         "içamento",
+         "transporte especializado"
+       ],
+       "palavras_chave": ["serviço", "instalação", "montagem", "mão de obra", "técnico"]
+     },
+     "produtos_aco_inox": {
+       "categoria": "Produtos em Aço Inox",
+       "produtos": [
+         "tubos de inox",
+         "chapas de inox",
+         "cantoneiras de inox",
+         "conexões de inox",
+         "qualquer peça de aço inoxidável",
+         "estruturas de inox",
+         "perfis de inox",
+         "barras de inox",
+         "acessórios de inox"
+       ],
+       "palavras_chave": ["inox", "inoxidável", "aço inox", "stainless"]
+     }
+   },
+   "mensagens_padrao": {
+     "produto_nao_comercializado": "Obrigada pelo contato! No momento não trabalhamos com esse tipo de produto. Caso tenha interesse em materiais que oferecemos para construção civil ou serralheria, estou à disposição para ajudar.",
+     "categoria_especifica": {
+       "material_eletrico": "Não trabalhamos com material elétrico. Nosso foco é ferro e aço para construção civil e serralheria.",
+       "material_hidraulico": "Não comercializamos material hidráulico. Trabalhamos apenas com ferro e aço.",
+       "acabamentos": "Não vendemos acabamentos. Nosso foco é estrutural: ferro e aço para obras.",
+       "servicos": "Não prestamos serviços de instalação. Comercializamos apenas os materiais em ferro e aço."
+     }
+   },
+   "instrucoes_uso": {
+     "quando_usar": "Sempre que o cliente mencionar qualquer produto desta lista",
+     "como_identificar": "Busque por palavras-chave ou produtos similares aos listados",
+     "resposta_padrao": "Use as mensagens padrão para informar que não comercializamos o produto",
+     "alternativa": "Sempre ofereça produtos que realmente vendemos (ferro e aço para construção/serralheria)"
+   }
+ }
+}
